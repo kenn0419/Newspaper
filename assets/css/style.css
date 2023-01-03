@@ -1,0 +1,342 @@
+#header {
+    background-color: #23282d;
+    height: 120px;
+}
+
+
+#header-menu {
+    display: flex;
+    position: relative;
+}
+
+#header-menu #menu .logo img {
+    padding: 35px 0 20px 25px;
+}
+
+#header-menu #menu .logo img:hover {
+    cursor: pointer;
+}
+
+#header-menu #menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 20px;
+    padding-right: 43px;
+}
+
+#menu ul li .menu-navbar a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+#menu ul li .menu-navbar a:hover {
+    color: #4db2ec;
+    cursor: pointer;
+}
+
+#header-menu #search input {
+    height: 40px;
+    width: 248px;
+    border: 0;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    color: #fff;
+    background-color: #131619;
+}
+
+#header-menu #search .icon-search {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    padding: 10px;
+    font-size: 20px;
+    color: #a2a1a1;
+}
+
+#header-menu #search .icon-search:hover {
+    cursor: pointer;
+}
+
+#header-menu #search #end {
+    height: 35px;
+    width: 10px;
+    background-color: #ff2d2d;
+    position: absolute;
+    right: 0;
+    bottom: 14px;
+}
+
+#content {
+    min-height: 550px;
+}
+
+#content .subtitle {
+    display: inline-block;
+    margin-top: 33px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #23282d;
+    text-transform: uppercase;
+}
+
+#content .hot-news ul.list-news {
+    display: flex;
+    list-style: none;
+}
+
+.hot-news ul.list-news li {
+    justify-content: center;
+    flex-basis: 33.3333%;
+    padding-right: 34px;
+}
+
+ul.list-news li .news {
+    overflow: hidden;
+}
+
+ul.list-news li .news .new-img img {
+    height: 240px;
+    width: 360px;
+}
+
+ul.list-news li .news .news-img img:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+ul.list-news li .news p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #5f5f5f;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#content .end-hot {
+    margin-top: 35px;
+    border-bottom: 2px solid #dadada;
+}
+
+#content .new-posts {
+    display: flex;
+}
+
+#content .new-posts .title-posts {
+    position: relative;
+}
+
+.new-posts .title-posts > h3 {
+    display: inline-block;
+    margin-top: 21px;
+    margin-bottom: 31px;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #4db2ec;
+    text-transform: uppercase;
+}
+
+.new-posts .title-posts .end-title {
+    position: absolute;
+    display: inline-block;
+    width: calc(100% - 122px);
+    top: 51px;
+    border-bottom: 2px solid #4db2ec;
+}
+
+.new-posts .posts {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#content .new-posts ul.list-new-posts {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.new-posts ul.list-new-posts .post-info {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+ul.list-new-posts .post-info .post-img {
+    margin-right: 33px;
+
+}
+
+.post-info .post-description a {
+    text-decoration: none;
+    color: #000;
+} 
+
+.post-info .post-description a:hover h3{
+    color: #4db2ec;
+}
+
+.post-info .post-description p {
+    font-size: 11px;
+    margin: 15px 0;
+}
+
+.post-info .post-description p .post-date {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.post-info .post-description .post-des {
+    font-size: 13px;
+}
+
+.posts .trending-topics .trending-img img:hover {
+    cursor: pointer;
+}
+
+.posts .trending-topics .title-trending {
+    position: relative;
+    margin-top: 42px;
+}
+
+.trending-topics .title-trending h3 {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ff2d2d;
+    padding: 4px 8px;
+    display: inline-block;
+}
+
+.trending-topics .title-trending .end-title {
+    position: absolute;
+    border-bottom: 2px solid #ff2d2d;
+    width: calc(100% - 191px);
+    right: 0;
+    bottom: 0;
+}
+
+.trending-topics .list-topics {
+    margin-top: 36px;
+}
+
+.posts .list-topics .topic {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.posts .list-topics .topic:hover {
+    cursor: pointer;
+    color: #ff2d2d;
+}
+
+.list-topics .topic .topic-title {
+    text-transform: capitalize;
+    flex-basis: 90%;
+}
+
+#footer {
+    background-color: #2e2f30;
+}
+
+#footer .introduce {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .introduce .logo {
+    padding: 118px 0;
+    flex-basis: 30%;
+}
+
+#footer .introduce .logo:hover {
+    cursor: pointer;
+}
+
+#footer .introduce .about {
+    flex-basis: 50%;
+}
+
+#footer .introduce .more {
+    flex-basis: 20%;
+}
+
+.introduce .about h3 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 45px 0;
+}
+
+.introduce .about p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.introduce .about a {
+    text-decoration: none;
+    color: #4287b1;
+    text-align: 14px;
+}
+
+.introduce .about a:hover {
+    cursor: pointer;
+}
+
+#footer .introduce .follow {
+    flex-basis: 20%;
+    margin-left: 200px;
+}
+
+.introduce .follow h3 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 45px 0;
+}
+
+.introduce .follow .fa-brands {
+    color: #fff;
+    padding: 8px 13px;
+    background-color: #434648;
+    margin-right: 3px;
+}
+
+.introduce .follow .fa-brands:hover {
+    color: #4db2ec;
+    cursor: pointer;
+}
+
+#footer .end-footer {
+    background-color: #222527;
+}
+
+#footer .end-footer .ending {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-footer .ending p {
+    color: #fff;
+    padding: 18px 0;
+    font-size: 14px;
+}
+
+.end-footer .ending .contact {
+    padding: 18px 0;
+}
+
+.ending .contact a {
+    color: #fff;
+    margin-left: 28px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.ending .contact a:hover {
+    color: #4db2ec;
+}
